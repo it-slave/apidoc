@@ -31,7 +31,7 @@
 	"requests": [
 		{
 			"id": "2322991a-eed6-4e12-b971-aa087274149f",
-			"headers": "x-api-key: {{api_key}}\nx-api-client: {{api_client}}\n",
+			"headers": "x-api-key: {{api_key}}\nx-loopline-client: {{api_client}}\n",
 			"url": "{{host}}/users/18/supervisor/3",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -51,7 +51,7 @@
 		},
 		{
 			"id": "2842915c-a89b-fc97-0144-68b6c28d4364",
-			"headers": "x-api-key: {{api_key}}\nx-api-client: {{api_client}}\n",
+			"headers": "x-api-key: {{api_key}}\nx-loopline-client: {{api_client}}\n",
 			"url": "{{host}}/teams/1/user/2",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -71,7 +71,7 @@
 		},
 		{
 			"id": "3c1dfda2-5825-43ad-7a96-c312df7537f0",
-			"headers": "x-api-key: {{api_key}}\nx-api-client: {{api_client}}\n",
+			"headers": "x-api-key: {{api_key}}\nx-loopline-client: {{api_client}}\n",
 			"url": "{{host}}/users/18/supervisor/3",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -90,7 +90,7 @@
 		},
 		{
 			"id": "75cf3e9e-3c4d-0850-82f7-d26bd001e051",
-			"headers": "x-api-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
+			"headers": "x-loopline-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
 			"url": "{{host}}/teams/3",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -110,7 +110,7 @@
 		},
 		{
 			"id": "77bbd703-563a-2413-c9e3-db76c83e3b04",
-			"headers": "x-api-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
+			"headers": "x-loopline-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
 			"url": "{{host}}/users/2/role/7",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -130,7 +130,7 @@
 		},
 		{
 			"id": "84ad7f37-d822-4d9b-f610-30399230fde4",
-			"headers": "x-api-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
+			"headers": "x-loopline-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
 			"url": "{{host}}/users/2",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -148,7 +148,7 @@
 		},
 		{
 			"id": "86eb4fea-77aa-fd08-0a5b-9ab7877b036a",
-			"headers": "x-api-key: {{api_key}}\nx-api-client: {{api_client}}\n",
+			"headers": "x-api-key: {{api_key}}\nx-loopline-client: {{api_client}}\n",
 			"url": "{{host}}/teams/1/teamlead/2",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -168,7 +168,7 @@
 		},
 		{
 			"id": "8aeb3733-d022-c9cb-707c-74cc169af24e",
-			"headers": "x-api-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
+			"headers": "x-loopline-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
 			"url": "{{host}}/roles/1",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -187,7 +187,7 @@
 		},
 		{
 			"id": "982f840b-e898-a5a3-fe07-3e935b0dbecd",
-			"headers": "x-api-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
+			"headers": "x-loopline-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
 			"url": "{{host}}/teams/20",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -207,7 +207,7 @@
 		},
 		{
 			"id": "a518a527-ce2d-12c5-275f-e9fc7d1caa67",
-			"headers": "x-api-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
+			"headers": "x-loopline-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
 			"url": "{{host}}/users/18/supervisees",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -226,7 +226,7 @@
 		},
 		{
 			"id": "aacf0f2e-48c2-5389-6ee2-8817e2637dfa",
-			"headers": "x-api-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
+			"headers": "x-loopline-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
 			"url": "{{host}}/users/2",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -246,7 +246,7 @@
 		},
 		{
 			"id": "b0c92a9b-e13d-81ee-263b-b319d542dfa1",
-			"headers": "x-api-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
+			"headers": "x-loopline-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
 			"url": "{{host}}/roles",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -265,7 +265,7 @@
 		},
 		{
 			"id": "bbb40200-0fa4-9105-b273-474f6f0a85ea",
-			"headers": "x-api-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
+			"headers": "x-loopline-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
 			"url": "{{host}}/users",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -276,7 +276,7 @@
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1436789629108,
+			"time": 1437572436068,
 			"name": "Create a new user",
 			"description": "",
 			"collectionId": "4312f03d-faa9-2cb5-f8bc-55144b06f7fc",
@@ -284,7 +284,7 @@
 		},
 		{
 			"id": "c20786b8-6871-eb9e-8e9f-032458b59ca3",
-			"headers": "x-api-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
+			"headers": "x-loopline-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
 			"url": "{{host}}/users/2/role/7",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -304,7 +304,7 @@
 		},
 		{
 			"id": "d8619a38-cf97-a74f-b70e-aa0b4516e23c",
-			"headers": "x-api-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
+			"headers": "x-loopline-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
 			"url": "{{host}}/teams",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -324,7 +324,7 @@
 		},
 		{
 			"id": "e46d2385-dffe-bce9-1fbd-852f1ced607a",
-			"headers": "x-api-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
+			"headers": "x-loopline-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
 			"url": "{{host}}/teams/1",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -343,7 +343,7 @@
 		},
 		{
 			"id": "e69a418f-84e3-3d93-cbb9-306e1b50a9b3",
-			"headers": "x-api-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
+			"headers": "x-loopline-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
 			"url": "{{host}}/teams",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -362,7 +362,7 @@
 		},
 		{
 			"id": "f6d98437-1d8b-d81a-ff4c-b61be7d6540d",
-			"headers": "x-api-key: {{api_key}}\nx-api-client: {{api_client}}\n",
+			"headers": "x-api-key: {{api_key}}\nx-loopline-client: {{api_client}}\n",
 			"url": "{{host}}/teams/1/user/2",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -382,7 +382,7 @@
 		},
 		{
 			"id": "f871d1a5-773f-b0bf-4ce0-78e04566d715",
-			"headers": "x-api-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\n",
+			"headers": "x-loopline-client: {{api_client}}\nx-api-key: {{api_key}}\nContent-Type: application/json\nx-loopline-client: test_hash\n",
 			"url": "{{host}}/users",
 			"preRequestScript": "",
 			"pathVariables": {},
@@ -393,7 +393,7 @@
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1436789603934,
+			"time": 1437554622069,
 			"name": "Get all users",
 			"description": "",
 			"collectionId": "4312f03d-faa9-2cb5-f8bc-55144b06f7fc"

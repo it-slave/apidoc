@@ -80,19 +80,18 @@
 .xml .hljs-cdata {
     opacity: .5
 }
-</style>
-  <style>
-  body,
-  h4,
-  h5 {
-      font-family: 'Roboto' sans-serif !important;
-  }
+
+body,
+h4,
+h5 {
+    font-family: 'Roboto', sans-serif !important;
+}
 
 h1,
 h2,
 h3,
 .aglio {
-    font-family: 'Raleway' sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 h1 a,
@@ -114,7 +113,7 @@ h5:hover a {
 code {
     color: #444;
     background-color: #ddd;
-    font-family: 'Inconsolata' monospace !important;
+    font-family: 'Inconsolata', monospace !important;
 }
 
 a[data-target] {
@@ -130,7 +129,7 @@ h4 {
 .back-to-top {
     position: fixed;
     z-index: 1;
-    bottom: 0px;
+    bottom: 0;
     right: 24px;
     padding: 4px 8px;
     background-color: #eee;
@@ -151,9 +150,6 @@ h4 {
     color: #c7254e;
     background-color: rgba(255, 255, 255, 0.7);
     white-space: pre-wrap;
-    white-space: -moz-pre-wrap;
-    white-space: -pre-wrap;
-    white-space: -o-pre-wrap;
     word-wrap: break-word;
 }
 
@@ -312,4 +308,80 @@ a.list-group-item.resource {
     55% {
         transform: scale( .8 );
     }
+}
+
+
+/* LLS Terminal by Stefan Judis @see http://codepen.io/stefanjudis/pen/BNOOpX */
+.terminal {
+    font: 14px Arial, sans-serif;
+    position: absolute;
+    min-width: 37.5em;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #ddd;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0 .75em 2em #666;
+}
+.terminal--head {
+    margin: 0;
+    padding: .5em 1em;
+    color: #555;
+    font-size: 1em;
+    text-shadow: 0 1px 1px #fff;
+    text-align: center;
+    background: -webkit-linear-gradient(top, #f7f7f7 0%, #B8B8B8 100%);
+    background: linear-gradient(to bottom, #f7f7f7 0%, #B8B8B8 100%);
+}
+.terminal--head::before, .terminal--head::after {
+    width: .85em;
+    height: .85em;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    top: .65em;
+    left: .75em;
+}
+.terminal--head::before {
+    background: #FF5F5B;
+}
+.terminal--head::after {
+    background: #FFC145;
+    left: 2.25em;
+}
+.terminal--body {
+    font-family: 'Andale Mono', Consolas, 'Courier New', serif;
+    list-style: none;
+    background: #000;
+    margin: 0;
+    padding: 1em;
+    color: #45D40C;
+}
+.terminal--body li {
+    position: relative;
+    padding: 0 0 0 5.5em;
+}
+.terminal--body li::before {
+    content: 'api@lls$';
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.static {
+    position: fixed;
+    z-index: 1000;
+    background-color: #ffffff;
+    width: 242px;
+    padding-top: 38px;
+}
+#nav {
+    margin-top: 264px;
+    max-width: 260px;
+}
+nav.dynamic .list-group {
+    width: 240px;
 }

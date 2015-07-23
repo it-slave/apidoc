@@ -349,7 +349,7 @@ a.list-group-item.resource {
 .terminal .head::after {
     background: #FFC145;
     border: 1px solid #E3A43B;
-    left: 2.05em;
+    left: 2.20em;
 }
 .terminal .body {
     font-family: 'Andale Mono', Consolas, 'Courier New', serif;
@@ -383,4 +383,20 @@ a.list-group-item.resource {
 }
 nav.dynamic .list-group {
     width: 240px;
+}
+
+@media (max-width: 992px) {
+    #content {
+        margin-top: 115px;
+    }
+    nav.static {
+        width: 100%;
+        margin-left: -50px;
+    }
+    nav.static a {
+        margin-left: 39px;
+    }
+    nav #static-pages {
+        display: none;
+    }
 }

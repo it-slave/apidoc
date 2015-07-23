@@ -314,19 +314,14 @@ a.list-group-item.resource {
 /* LLS Terminal by Stefan Judis @see http://codepen.io/stefanjudis/pen/BNOOpX */
 .terminal {
     font: 14px Arial, sans-serif;
-    position: absolute;
-    min-width: 37.5em;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     background: #ddd;
     border-radius: 7px;
     overflow: hidden;
     box-shadow: 0 .75em 2em #666;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
-.terminal--head {
+.terminal .head {
     margin: 0;
     padding: .5em 1em;
     color: #555;
@@ -335,8 +330,9 @@ a.list-group-item.resource {
     text-align: center;
     background: -webkit-linear-gradient(top, #f7f7f7 0%, #B8B8B8 100%);
     background: linear-gradient(to bottom, #f7f7f7 0%, #B8B8B8 100%);
+    position: relative;
 }
-.terminal--head::before, .terminal--head::after {
+.terminal .head::before, .terminal .head::after {
     width: .85em;
     height: .85em;
     border-radius: 50%;
@@ -345,14 +341,17 @@ a.list-group-item.resource {
     top: .65em;
     left: .75em;
 }
-.terminal--head::before {
+.terminal .head::before {
     background: #FF5F5B;
+    border: 1px solid #D1423F;
+    width: .87em;
 }
-.terminal--head::after {
+.terminal .head::after {
     background: #FFC145;
-    left: 2.25em;
+    border: 1px solid #E3A43B;
+    left: 2.05em;
 }
-.terminal--body {
+.terminal .body {
     font-family: 'Andale Mono', Consolas, 'Courier New', serif;
     list-style: none;
     background: #000;
@@ -360,11 +359,11 @@ a.list-group-item.resource {
     padding: 1em;
     color: #45D40C;
 }
-.terminal--body li {
+.terminal .body li {
     position: relative;
     padding: 0 0 0 5.5em;
 }
-.terminal--body li::before {
+.terminal .body li::before {
     content: 'api@lls$';
     position: absolute;
     left: 0;

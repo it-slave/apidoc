@@ -4,14 +4,31 @@
 
 <p>First, install the Postman extension from the <a href="https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop">Chrome Webstore</a>.</p>
 
-<p>Now, you can download the postman collection <a href="res/loopline-systems.postman_collection">here</a> and import it to Postman. Because the collection uses placeholders
-you need to create an environment with three values:</p>
+<p>You will need to 2 things then, the collection itself and an environment set up.</p>
 
-<p><img alt="Environment fields" src="img/chrome-postman-environment.jpeg"/></p>
+<h3>Import the collection</h3>
 
-<ul><li>api_client: identifies your client (inside Loopline go to: Admin / API and integrations)</li><li>api_key: authenticates your client (inside Loopline go to: Admin / API and integrations)</li><li>host: the api endpoint, https://api.loopline-systems.com</li></ul>
+<p>You can either download the collection <a href="res/loopline-systems.postman_collection">here</a> and import it to Postman
+or import the collection directly. Paste the link into the &quot;Download from link&quot; section.</p>
 
-<p>If you set up the values correctly, you should have access to the provided actions.</p></div></div></div><p id="footer" style="text-align: center;" class="text-muted">Generated with&nbsp;<a href="https://apiblueprint.org/" target="_blank" class="aglio">API Blueprint</a>&nbsp;and&nbsp;<a href="https://github.com/danielgtaylor/aglio" target="_blank" class="aglio">Aglio</a>&nbsp;and&nbsp;<a href="http://www.loopline-systems.com" target="_blank" class="aglio">© 2015 made with <span no-class="❤" class="heart">❤︎</span> in berlin</a></p></body><script src="js/jquery-1.11.0.min.js"></script><script src="js/bootstrap-3.1.1.min.js"></script><script src="js/api-doc.js"></script><script>(function() {
+<p><code>https://www.getpostman.com/collections/06f9838da6410f2d2ad3</code></p>
+
+<p><img alt="Download from link" src="img/download-from-link.png"/></p>
+
+<h3>Import the environment file</h3>
+
+<p>Download the <a href="res/Loopline-Systems-API.postman_environment">environment file</a> and add it to Postman.
+<img alt="Manage Environment" src="img/manage-environments.png"/></p>
+
+<p>Add your <code>loopline_client</code> value and <code>api_key</code>. You will get both from within the admin area in Loopline.
+ <img alt="Adjust Environment" src="img/add-environment-vars.png"/></p>
+
+<p>You can also create the environment by yourself.
+Because the collection uses placeholders you need to create an environment with three values:</p>
+
+<ul><li>loopline_client: identifies your client (inside Loopline go to: Admin / API and integrations)</li><li>api_key: authenticates your client (inside Loopline go to: Admin / API and integrations)</li><li>host: the api endpoint, https://api.loopline-systems.com</li></ul>
+
+<p>If you set up the values correctly, you should have access to the provided requests.</p><hr /></div></div></div><p id="footer" style="text-align: center;" class="text-muted">Generated with&nbsp;<a href="https://apiblueprint.org/" target="_blank" class="aglio">API Blueprint</a>&nbsp;and&nbsp;<a href="https://github.com/danielgtaylor/aglio" target="_blank" class="aglio">Aglio</a>&nbsp;and&nbsp;<a href="http://www.loopline-systems.com" target="_blank" class="aglio">© 2015 made with <span no-class="❤" class="heart">❤︎</span> in berlin</a></p></body><script src="js/jquery-1.11.0.min.js"></script><script src="js/bootstrap-3.1.1.min.js"></script><script src="js/api-doc.js"></script><script>(function() {
   $('table').addClass('table');
 
 }).call(this);
